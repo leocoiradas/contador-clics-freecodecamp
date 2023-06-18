@@ -1,4 +1,5 @@
 import './App.css';
+import freeCodeCampLogo from './images/freecodecamp-logo.png';
 import Counter from './components/Counter';
 import Button from './components/Button';
 import { useState } from 'react';
@@ -13,6 +14,9 @@ function App() {
   }
   return (
     <div className="App">
+      <div className='logoContainer'>
+        <img className='freeCodeCampLogo' src={freeCodeCampLogo} alt='freeCodeCampLogo' />
+      </div>
       <div className='appContainer'>
         <Counter numClics={numClics}/>
         <Button

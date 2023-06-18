@@ -6,11 +6,22 @@
 body{
   background-color: #1b1b32;
 }
+.logoContainer{
+  width: 100%;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freeCodeCampLogo{
+  height: 50px;
+}
 .App{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 1rem;
 }
 .appContainer{
   display: flex;
