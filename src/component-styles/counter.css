@@ -1,8 +1,12 @@
 .counterBox{
-    min-width: 600px;
-    height: 600px;
+    min-width: 400px;
+    height: 400px;
     color: white;
     border: 2px solid white;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 
 }
